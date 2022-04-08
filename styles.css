@@ -9,6 +9,11 @@ body {
 
 nav {
 	border-bottom: 2px solid orange;
+	position: fixed;
+	top: 0px;
+	background-color: #ddd;
+	width: 100%;
+	z-index: 2;
 }
 
 ol {
@@ -35,4 +40,66 @@ input {
 
 img {
 	max-width: 300px;
+}
+
+#foundUs {
+	display: flex;
+	width: 100%;
+}
+
+#skillsList {
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+}
+
+#hobbiesList {
+	display: flex;
+	width: 400px;
+	justify-content: space-between;
+}
+
+header {
+	display: flex;
+}
+
+#profilePic {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin: 25px;
+}
+
+#color, #place, #ritual {
+	background-color: yellow;
+	height: 75px;
+	width: 150px;
+	border-radius: 10px;
+}
+
+#color:hover, #place:hover, #ritual:hover {
+	cursor: pointer;
+}
+
+#color:active, #place:active, #ritual:active {
+	background-color: green;
+}
+
+#contact, #newsletterSignUp {
+	margin: 50px;
+} 
+
+footer {
+	display: flex;
+	align-items: center;
+	border-top: 2px solid orange;
+	background-color: #ddd;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+#facebook, #instagram, #twitter {
+	height: 25px;
+	margin: 10px;
 }
