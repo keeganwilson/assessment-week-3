@@ -77,7 +77,7 @@ header {
 	border-radius: 10px;
 }
 
-#color:hover, #place:hover, #ritual:hover {
+button {
 	cursor: pointer;
 }
 

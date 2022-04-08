@@ -1,6 +1,6 @@
 const randomResturant = (event) => {
     let restaurants = ['Slackwater Pizza', 'UTOG Brewery', 'Tona Sushi', 'Ogden River Brewery']
-    rec = Math.floor(Math.random() * restaurants.length)    
+    let rec = Math.floor(Math.random() * restaurants.length)    
 	alert(restaurants[rec])
 }
 
